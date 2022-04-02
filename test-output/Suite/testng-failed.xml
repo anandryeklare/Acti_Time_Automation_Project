@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.acti_time.script.VerifyTasks">
+        <methods>
+          <include name="verifyTasks"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.acti_time.script.VerifyTasks -->
+      <class name="com.acti_time.script.VerifyReports">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="verifyReports"/>
+        </methods>
+      </class> <!-- com.acti_time.script.VerifyReports -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
